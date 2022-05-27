@@ -1,0 +1,241 @@
+/* Tombol */
+.tombol{
+    display: flex;
+    float: right; 
+    padding: 20px;
+}
+
+
+.navbar {
+    font-family: bebas neue;
+    font-size: 24px;
+    background-color: #007F5F;
+    /* position:sticky;
+    top: 0; */
+    z-index: 999;
+    overflow: visible;
+    word-spacing: 1px;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #fff !important;
+}
+.navbar h1{
+    position: 0 -100px;
+    color: #fff;
+    font-family: bebas neue;
+}
+/* Akhir navbar */
+
+.jumbotron{
+    height: 65vh;
+    background-image: url('assets/images/masjid\ kuning.jpg');
+    background-size: cover;
+    background-position: 0 -250px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: -75px;
+
+}
+.jumbotron :after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(43, 147, 72,.5);
+    z-index: -1
+    ;
+}
+.jumbotron h1{
+    color: #fff;
+    z-index: 9;
+    text-align: center;
+    margin-top: 50px;
+}
+/* Akhir Jumbotron */
+.carousel-inner{
+}
+.carousel-item{
+    height: 500px;
+    padding: 10px 30px;
+}
+.card{
+    padding: 20px;
+    border: none;
+}
+.list-group-item{
+    display: flex;
+    flex-direction: column;
+}
+/* Akhir Slide */
+
+.garis{
+    display:flex;
+    padding: 30px;
+}
+.garis h3{
+    font-family: coolvetica;
+    color: #007F5F;
+}
+.garis span{
+    display: block;
+    width: 23px;
+    height: 6px;
+    background-color: #007F5F;
+    transform: rotate(90deg);
+    margin-top: 15px;
+}
+.card{
+    border-radius: 5px;
+}
+.card-footer{
+    background: none;
+}
+.card-deck{
+    margin-top: -15px;
+}
+.bg{
+    background-color: #007F5F;
+}
+.card-title{
+    font-family: coolvetica;
+}
+.card-text{
+    font-family: sansation;
+}
+.btn-success{
+    background-color: #007F5F;
+}
+.berita{
+    padding: 60px 0 0 0;
+}
+
+/* footer */
+.rangka{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 10px;
+    flex-direction: column;
+    margin: 80px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#007F5F;
+}
+main div .foter{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #007F5F;
+}
+footer .wadah {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .wadah .sec{
+    margin-right: 30px;
+}
+footer .wadah .sec.aboutus{
+    width: 30%;
+}
+footer .wadah .sec h3{
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+footer .wadah .sec h3:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: #DDDF00;
+}
+footer p{
+    color: rgb(212, 207, 207);
+}
+footer ul {
+    margin-left: -40px;
+}
+.sci {
+    margin-top: 5px;
+    display: flex;
+}
+.sci li {
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #018564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sci li a:hover{
+    background: #55a630;
+}
+.sci li a .fab{
+    color: #fff;
+    font-size: 20px;
+}
+.address{
+    position: relative;
+    width: 25%;
+    justify-content: left;
+}
+.phone{
+    width: calc(30%-60px);
+    margin-right: 0 !important;
+}
+.icon{
+    position: relative;
+}
+.icon li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.icon li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icon li a{
+    color: rgb(212, 207, 207);
+    text-decoration: none;
+}
+.icon li a:hover{
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: rgb(212, 207, 207);
+    background:#018564;
+
+}
